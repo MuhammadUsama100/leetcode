@@ -24,3 +24,6 @@ class Solution:
             
         print(len(outputList))
         return outputList
+    
+    # Learn move about itertools Library itertool.product means [1,2,3] * [2,3,4] = [(1,2),(1,3),(1,4),(2,2),(2,3),(2,4),(3,2),(3,3),(3,4)] or you can say it returns cartesian product
+    
