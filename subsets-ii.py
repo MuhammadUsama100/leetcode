@@ -10,6 +10,6 @@ class Solution:
                 c = list(c)
                 c.sort()
                 s.append(c)
-
+        # to create a unique list of list in python use itertools.groupby eg : [[1,2,3] , [3,3,1,5],[3,3,1,5]] = [[1,2,3] , [3,3,1,5]]
         s.sort()
         return list(s for s, _ in itertools.groupby(s))
